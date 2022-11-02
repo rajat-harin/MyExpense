@@ -1,0 +1,25 @@
+{
+  "name": "myexpense",
+  "version": "1.0.0",
+  "description": "Simple project to track expenses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajat-harin/MyExpense.git"
+  },
+  "author": "Rajat Harinkhede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajat-harin/MyExpense/issues"
+  },
+  "homepage": "https://github.com/rajat-harin/MyExpense#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
